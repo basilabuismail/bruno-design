@@ -210,6 +210,35 @@ header h1 {
     flex-grow: 1;
 }
 
+/* Services */
+
+section.services {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services .content {
+    width: 280px;
+    flex-grow: 1;
+    text-align: left;
+}
+.services .content h2 {
+    font-size: 7.5rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+/* Solid border divider */
+
+hr.solid {
+    border-top: 5px solid #bbb;
+    margin: 30px;
+  }
+
 /* Team */
 
 .team h2 {
@@ -264,33 +293,6 @@ text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* Services */
-
-section.services {
-    display: flex ;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.services .content {
-    width: 280px;
-    flex-grow: 1;
-    text-align: left;
-}
-.services .content h2 {
-    font-size: 7.5rem;
-    margin-top: 0;
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-/* Solid border */
-hr.solid {
-    border-top: 5px solid #bbb;
-    margin: 30px;
-  }
   
 /* Contacts */
 
